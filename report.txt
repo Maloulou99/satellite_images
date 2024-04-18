@@ -1,0 +1,29 @@
+## Title
+
+### 1. Introduction
+In this report, we present our work on performing land cover classification using Sentinel-2 satellite images. 
+The purpose of this work is to evaluate the use of simple classification algorithms on the images to validate 
+their applicability and achieved results.
+
+### 2. Description of the Process
+#### 2.1 Data
+We worked with a dataset consisting of 27,000 images with 13 spectral bands representing 10 different land classes. 
+For our purposes, we simplified the dataset to images in JPG format with three spectral bands (RGB).
+
+#### 2.2 Image Processing
+We performed necessary preprocessing of the images, including scaling to a fixed size, normalization, 
+and potentially removing noise.
+
+#### 2.3 Dataset Preparation
+The dataset was split into training and test sets to properly evaluate the models. 
+An analysis of the class distribution was also conducted to ensure adequate training.
+
+#### 2.4 Model Configuration
+We implemented three classification models: Decision Trees, Logistic Regression, and k-NN. 
+These models were trained on the training dataset and evaluated on the test dataset.
+
+### 3. Experiments and Results
+
+### 4. Discussion and Conclusion
+
+### 5. References
