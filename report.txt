@@ -10,15 +10,24 @@ their applicability and achieved results.
 We worked with a dataset consisting of 27,000 images with 13 spectral bands representing 10 different land classes. 
 For our purposes, we simplified the dataset to images in JPG format with three spectral bands (RGB).
 
-#### 2.2 Image Processing
+#### 2.2 Descriptive data Analyse 
+In our descriptive data analysis, we conducted a number of analyses to gain insight into the dataset. 
+First, we quantified the number of images in each folder, which provides an understanding of the balance or 
+imbalance between different land classes. Next, we examined the dimensions of each image to ensure consistency and 
+and compatibility for subsequent analyses. We also visualised five random images from each folder, 
+This allowed us to explore the diversity of images and landscapes within the dataset. 
+Finally, we computed histograms of the red, green and blue channels for each image, allowing us to visualise the distribution of pixel intensities and understand the 
+distribution of pixel intensities and understand the colour composition and intensity variations across the dataset. 
+
+#### 2.3 Image Processing
 We performed necessary preprocessing of the images, including scaling to a fixed size, normalization, 
 and potentially removing noise.
 
-#### 2.3 Dataset Preparation
+#### 2.4 Dataset Preparation
 The dataset was split into training and test sets to properly evaluate the models. 
 An analysis of the class distribution was also conducted to ensure adequate training.
 
-#### 2.4 Model Configuration
+#### 2.5 Model Configuration
 We implemented three classification models: Decision Trees, Logistic Regression, and k-NN. 
 These models were trained on the training dataset and evaluated on the test dataset.
 
